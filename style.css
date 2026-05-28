@@ -1,0 +1,47 @@
+/* Негізгі стильдер */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 20px;
+}
+
+.center {
+  text-align: center;
+}
+
+#container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#entryinput {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+#entrybutton {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#entrybutton:hover {
+  background-color: #0056b3;
+}
+
+#textoutput {
+  margin-top: 20px;
+  color: #333;
+}
